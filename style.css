@@ -617,3 +617,117 @@ hr {
     height: 2px;
     background-color: #38bdf8;
 }
+
+
+/*thanks page*/
+/* Centering Wrapper Component */
+.thank-you-screen-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh; /* Centers vertically within the viewport area */
+    padding: 20px;
+}
+
+/* Card Container (Dark Mixture Theme) */
+.thank-you-container {
+    background: linear-gradient(145deg, #0f172a, #020617); /* Deep dark blue to black gradient */
+    border: 1px solid #1e293b; /* Subtle dark border border */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 550px;
+    width: 100%;
+}
+
+/* Success Checkmark Circle */
+.success-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #10b981; /* Emerald green accent */
+    color: #ffffff;
+    font-size: 35px;
+    border-radius: 50%;
+    margin: 0 auto 24px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);
+}
+
+.thank-you-container h1 {
+    color: #f8fafc; /* Crisp off-white */
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+}
+
+.main-message {
+    color: #e2e8f0; /* Soft light gray */
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.sub-message {
+    color: #94a3b8; /* Muted slate blue */
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+/* Extra Content Box */
+.extra-content {
+    background-color: #1e293b; /* Dark slate blue filling */
+    border-left: 4px solid #38bdf8; /* Bright sky blue accent line */
+    padding: 20px;
+    border-radius: 6px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.extra-content h3 {
+    color: #f1f5f9;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+}
+
+.extra-content ul {
+    list-style-type: none;
+}
+
+.extra-content li {
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.extra-content li::before {
+    content: "•";
+    color: #38bdf8;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Action Button */
+.btn-home {
+    display: inline-block;
+    background-color: #38bdf8; /* Bright blue pop color */
+    color: #0f172a; /* Dark text for contrast */
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-home:hover {
+    background-color: #7dd3fc;
+}
+
+.btn-home:active {
+    transform: scale(0.98);
+}
